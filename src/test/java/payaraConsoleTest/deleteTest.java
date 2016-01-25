@@ -8,9 +8,12 @@ package payaraConsoleTest;
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import java.io.IOException;
+import java.util.List;
 import static junit.framework.Assert.assertEquals;
-import org.glassfish.api.admin.*;
-import org.glassfish.api.*;
+//import org.glassfish.api.admin.*;
+import org.glassfish.embeddable.*;
+import org.junit.Test;
+import payara.fish.consoletest.ExecuteBash;
 //import org.glassfish.embeddable.CommandRunner;
 //import org.glassfish.embeddable.*;
 
@@ -23,8 +26,14 @@ import org.glassfish.api.*;
 
 public class deleteTest {
     
-    CommandRunner runner=server.getHabitat();
+    CommandRunner runner;
+    GlassFish glassfish;
     
+    @Test
+    public void deleteChangesTest() {
+        ExecuteBash execute = new ExecuteBash();
+        List<List<String>> scriptOutput = execute.runScript("basicDomainTest.sh");
+    }
     
     
     //NOTE: delete Resource must be done before delete cluster of an "unexpected error" will occur!
