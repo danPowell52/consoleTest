@@ -1,0 +1,5 @@
+HOME=$(pwd)
+cd ../../../..
+cd scripts
+HOME=$(pwd)
+SCRIPTS_LOCATION=$HOME

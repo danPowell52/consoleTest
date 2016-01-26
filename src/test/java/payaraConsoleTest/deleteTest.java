@@ -11,7 +11,6 @@ import java.io.IOException;
 import java.util.List;
 import static junit.framework.Assert.assertEquals;
 //import org.glassfish.api.admin.*;
-import org.glassfish.embeddable.*;
 import org.junit.Test;
 import payara.fish.consoletest.ExecuteBash;
 //import org.glassfish.embeddable.CommandRunner;
@@ -26,13 +25,13 @@ import payara.fish.consoletest.ExecuteBash;
 
 public class deleteTest {
     
-    CommandRunner runner;
-    GlassFish glassfish;
+
     
     @Test
-    public void deleteChangesTest() {
-        ExecuteBash execute = new ExecuteBash();
-        List<List<String>> scriptOutput = execute.runScript("basicDomainTest.sh");
+    public void deleteChangesTest() throws IOException {
+        //ExecuteBash execute = new ExecuteBash();
+        //execute.runScript("deleteChangesScript.sh");
+        Runtime.getRuntime().exec("bash deleteChangesScript.sh");
     }
     
     

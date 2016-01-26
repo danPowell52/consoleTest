@@ -44,8 +44,8 @@ public class clusterTest {
             newClusterPage.getElementById("propertyForm:propertyContentPage:topButtons:newButton").click();
             
             //Selenium();
-            startup();
-            startup2();
+            //startup();
+            //startup2();
             
         } catch (IOException io){
             System.out.println(io);

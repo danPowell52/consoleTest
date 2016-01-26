@@ -22,8 +22,9 @@ import org.junit.Test;
 public class resourceTest {
     @Test
     @InSequence(4)
-    public void newResourceTest(){
+    public void newResourceTest() throws InterruptedException{
         try {
+            Thread.sleep(15000);
             //create a webclient to act on
             WebClient webClient = new webClientInit().getWebClient();
             
@@ -55,8 +56,9 @@ public class resourceTest {
     
     //for some reason if there is not 2 tests the code doesnt work
     @Test    
-    public void newResourceTest2(){
+    public void newResourceTest2() throws InterruptedException{
         try {
+            Thread.sleep(15000);
             //create a webclient to act on
             WebClient webClient = new webClientInit().getWebClient();
             
