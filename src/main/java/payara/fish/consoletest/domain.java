@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package payaraConsoleTest;
+package payara.fish.consoletest;
 
 /**
  *
- * @author Daniel
+ * @author user
  */
-public class deployTest {
+public class domain {
     
 }

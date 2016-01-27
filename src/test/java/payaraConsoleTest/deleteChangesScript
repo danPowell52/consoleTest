@@ -1,18 +1,22 @@
 #!/bin/bash
-HOME=$(pwd)
-#echo $HOME
-#echo ""
+HOME=$(pwd) 
+#echo $HOME >/tmp/home.out 2>&1
+
 
 #navigate to asadmin
-cd ../../../../..
+cd ..
 HOME=$(pwd)
 #echo $HOME
 source $HOME/asadmin/src/test/resources/config/config.properties
 
-#source /home/user/gitRepo/payaratests/asadmin/src/test/resources/config/config.properties
 echo $ASADMIN
 
-$ASADMIN delete-custom-resource testResource2
-$ASADMIN delete-instance danInstance1
-$ASADMIN delete-cluster danCluster1
-$ASADMIN delete-node-config dummyTestNode1
+$ASADMIN --port 5048 delete-custom-resource testResource2
+$ASADMIN --port 5048 delete-instance danInstance1
+$ASADMIN --port 5048 delete-cluster danCluster1
+	
+#
+$ASADMIN --port 5048 delete-node-config dummyTestNode1 
+
+
+

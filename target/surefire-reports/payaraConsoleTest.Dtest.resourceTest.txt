@@ -1,11 +1,11 @@
 -------------------------------------------------------------------------------
-Test set: payaraConsoleTest.resourceTest
+Test set: payaraConsoleTest.Dtest.resourceTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 30.067 sec <<< FAILURE!
-newResourceTest(payaraConsoleTest.resourceTest)  Time elapsed: 30.031 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.719 sec <<< FAILURE!
+newResourceTest(payaraConsoleTest.Dtest.resourceTest)  Time elapsed: 1.719 sec  <<< ERROR!
 com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[option] attributeName=[text] attributeValue=[danCluster1]
 	at com.gargoylesoftware.htmlunit.html.HtmlSelect.getOptionByText(HtmlSelect.java:503)
-	at payaraConsoleTest.resourceTest.newResourceTest(resourceTest.java:43)
+	at payaraConsoleTest.Dtest.resourceTest.newResourceTest(resourceTest.java:44)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

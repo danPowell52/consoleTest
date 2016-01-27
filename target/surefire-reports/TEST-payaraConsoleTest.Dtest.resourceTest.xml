@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="30.067" errors="1" skipped="0" tests="1" name="payaraConsoleTest.resourceTest">
+<testsuite failures="0" time="1.719" errors="1" skipped="0" tests="1" name="payaraConsoleTest.Dtest.resourceTest">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64"/>
@@ -60,10 +60,10 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="30.031" classname="payaraConsoleTest.resourceTest" name="newResourceTest">
+  <testcase time="1.719" classname="payaraConsoleTest.Dtest.resourceTest" name="newResourceTest">
     <error message="elementName=[option] attributeName=[text] attributeValue=[danCluster1]" type="com.gargoylesoftware.htmlunit.ElementNotFoundException">com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[option] attributeName=[text] attributeValue=[danCluster1]
 	at com.gargoylesoftware.htmlunit.html.HtmlSelect.getOptionByText(HtmlSelect.java:503)
-	at payaraConsoleTest.resourceTest.newResourceTest(resourceTest.java:43)
+	at payaraConsoleTest.Dtest.resourceTest.newResourceTest(resourceTest.java:44)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -96,17 +96,17 @@
 </error>
     <system-out>THIS IS NUMBER 4
 </system-out>
-    <system-err>Jan 27, 2016 9:00:15 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
+    <system-err>Jan 27, 2016 10:11:04 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
 WARNING: Obsolete content type encountered: &apos;text/javascript&apos;.
-Jan 27, 2016 9:00:16 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
+Jan 27, 2016 10:11:04 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
 WARNING: Obsolete content type encountered: &apos;text/javascript&apos;.
-Jan 27, 2016 9:00:16 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
+Jan 27, 2016 10:11:04 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
 WARNING: Obsolete content type encountered: &apos;text/javascript&apos;.
-Jan 27, 2016 9:00:16 AM com.gargoylesoftware.htmlunit.WebClient printContentIfNecessary
+Jan 27, 2016 10:11:04 AM com.gargoylesoftware.htmlunit.WebClient printContentIfNecessary
 INFO: statusCode=[404] contentType=[text/html]
-Jan 27, 2016 9:00:16 AM com.gargoylesoftware.htmlunit.WebClient printContentIfNecessary
+Jan 27, 2016 10:11:04 AM com.gargoylesoftware.htmlunit.WebClient printContentIfNecessary
 INFO: &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;head&gt;&lt;title&gt;Payara Server  4.1.1.161-SNAPSHOT #badassfish - Error report&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;&lt;!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;}--&gt;&lt;/style&gt; &lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 404 - Not Found&lt;/h1&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt; Status report&lt;/p&gt;&lt;p&gt;&lt;b&gt;message&lt;/b&gt;Not Found&lt;/p&gt;&lt;p&gt;&lt;b&gt;description&lt;/b&gt;The requested resource is not available.&lt;/p&gt;&lt;hr/&gt;&lt;h3&gt;Payara Server  4.1.1.161-SNAPSHOT #badassfish&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;
-Jan 27, 2016 9:00:16 AM com.gargoylesoftware.htmlunit.html.HtmlPage loadExternalJavaScriptFile
+Jan 27, 2016 10:11:04 AM com.gargoylesoftware.htmlunit.html.HtmlPage loadExternalJavaScriptFile
 SEVERE: Error loading JavaScript from [http://localhost:4848/theme/META-INF/com_sun_faces_ajax.js].
 java.io.IOException: Unable to download JavaScript from &apos;http://localhost:4848/theme/META-INF/com_sun_faces_ajax.js&apos; (status 404).
 	at com.gargoylesoftware.htmlunit.html.HtmlPage.loadJavaScriptFromUrl(HtmlPage.java:1082)
@@ -136,7 +136,7 @@ java.io.IOException: Unable to download JavaScript from &apos;http://localhost:4
 	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:350)
 	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:415)
 	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:400)
-	at payaraConsoleTest.resourceTest.newResourceTest(resourceTest.java:33)
+	at payaraConsoleTest.Dtest.resourceTest.newResourceTest(resourceTest.java:34)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -167,11 +167,13 @@ java.io.IOException: Unable to download JavaScript from &apos;http://localhost:4
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
 
-Jan 27, 2016 9:00:17 AM com.gargoylesoftware.htmlunit.WebClient printContentIfNecessary
+Jan 27, 2016 10:11:04 AM com.gargoylesoftware.htmlunit.WebConsole info
+INFO: Wed Jan 27 2016 10:11:04 GMT-0000 (GMT):  Updating tree node treeForm:tree:nodeTreeNode
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.WebClient printContentIfNecessary
 INFO: statusCode=[404] contentType=[text/html]
-Jan 27, 2016 9:00:17 AM com.gargoylesoftware.htmlunit.WebClient printContentIfNecessary
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.WebClient printContentIfNecessary
 INFO: &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;head&gt;&lt;title&gt;Payara Server  4.1.1.161-SNAPSHOT #badassfish - Error report&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;&lt;!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;}--&gt;&lt;/style&gt; &lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 404 - Not Found&lt;/h1&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt; Status report&lt;/p&gt;&lt;p&gt;&lt;b&gt;message&lt;/b&gt;Not Found&lt;/p&gt;&lt;p&gt;&lt;b&gt;description&lt;/b&gt;The requested resource is not available.&lt;/p&gt;&lt;hr/&gt;&lt;h3&gt;Payara Server  4.1.1.161-SNAPSHOT #badassfish&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;
-Jan 27, 2016 9:00:17 AM com.gargoylesoftware.htmlunit.html.HtmlPage loadExternalJavaScriptFile
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.html.HtmlPage loadExternalJavaScriptFile
 SEVERE: Error loading JavaScript from [http://localhost:4848/theme/META-INF/com_sun_faces_ajax.js].
 java.io.IOException: Unable to download JavaScript from &apos;http://localhost:4848/theme/META-INF/com_sun_faces_ajax.js&apos; (status 404).
 	at com.gargoylesoftware.htmlunit.html.HtmlPage.loadJavaScriptFromUrl(HtmlPage.java:1082)
@@ -233,7 +235,7 @@ java.io.IOException: Unable to download JavaScript from &apos;http://localhost:4
 	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:350)
 	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:415)
 	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:400)
-	at payaraConsoleTest.resourceTest.newResourceTest(resourceTest.java:33)
+	at payaraConsoleTest.Dtest.resourceTest.newResourceTest(resourceTest.java:34)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -264,99 +266,99 @@ java.io.IOException: Unable to download JavaScript from &apos;http://localhost:4
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
 
-Jan 27, 2016 9:00:17 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
 WARNING: Obsolete content type encountered: &apos;text/javascript&apos;.
-Jan 27, 2016 9:00:17 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
 WARNING: Obsolete content type encountered: &apos;text/javascript&apos;.
-Jan 27, 2016 9:00:17 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
 WARNING: Obsolete content type encountered: &apos;text/javascript&apos;.
-Jan 27, 2016 9:00:17 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
 WARNING: Obsolete content type encountered: &apos;text/javascript&apos;.
-Jan 27, 2016 9:00:17 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
 WARNING: Obsolete content type encountered: &apos;text/javascript&apos;.
-Jan 27, 2016 9:00:17 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
 WARNING: Obsolete content type encountered: &apos;text/javascript&apos;.
-Jan 27, 2016 9:00:17 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl notify
 WARNING: Obsolete content type encountered: &apos;text/javascript&apos;.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:770] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:841] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:858] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:1030] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:1209] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:1246] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:1318] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:1675] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:1739] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:1803] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:1866] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:1930] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:1993] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:2058] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:2122] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:2188] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:2252] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:2319] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:2383] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:3454] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:3472] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:3884] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:3897] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:3998] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:4014] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:4115] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:4204] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:4267] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:4366] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:4417] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:4577] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:4589] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:4753] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:4813] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:4826] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:5150] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/reset-fonts-grids.css&apos; [7:5222] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/assets/skins/sam/layout.css&apos; [7:4346] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/assets/skins/sam/layout.css&apos; [7:4369] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
-Jan 27, 2016 9:00:18 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Jan 27, 2016 10:11:05 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: &apos;http://localhost:4848/resources/yui/assets/skins/sam/layout.css&apos; [7:4848] Error in declaration. &apos;*&apos; is not allowed as first char of a property.
 </system-err>
   </testcase>
